@@ -23,16 +23,18 @@ High-level flow:
 ```
 EventBridge (schedule)
         ↓
-     AWS Lambda
+    AWS Lambda
         ↓
-     IAM APIs (read-only)
+IAM APIs (read-only)
         ↓
-     Rule engine
+    Rule engine
         ↓
-   Amazon S3 (gzip JSON reports)
+Amazon S3 (gzip JSON reports)
 
 ```
+
 <img width="1137" height="332" alt="Screenshot 2026-02-07 at 16 47 37" src="https://github.com/user-attachments/assets/b7b82cd4-c96c-4d77-a8ad-3a6d2ef0900d" />
+
 
 AWS services used:
 - AWS Lambda  
