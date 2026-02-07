@@ -6,7 +6,7 @@ It runs as an AWS Lambda function on a scheduled Amazon EventBridge trigger and 
 
 ---
 
-## Issues
+## Problem engineers face
 
 Manual IAM reviews do not scale in environments with frequent role and policy changes. Over time, wildcard permissions, unrestricted `iam:PassRole`, and overly permissive trust relationships often persist unnoticed and increase the risk of privilege escalation or unintended cross-account access.
 
