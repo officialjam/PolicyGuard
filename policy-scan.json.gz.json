@@ -1,0 +1,23 @@
+{
+  "account_id": "880844767084",
+  "bucket": "policy-scan-reports",
+  "findings": [],
+  "generated_at": "2026-02-07T14:20:30.293996+00:00",
+  "prefix": "reports/",
+  "scanned": {
+    "items_count": 21,
+    "types": {
+      "iam_managed_policy": 3,
+      "iam_role_trust": 18
+    }
+  },
+  "summary": {
+    "finding_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "LOW": 0,
+      "MEDIUM": 0
+    }
+  }
+}
